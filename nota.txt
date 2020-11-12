@@ -1,0 +1,3 @@
+en la pagina principal me falta el formulario
+las paginas secundarias faltan por hacer el diseño y esctructura
+falta por hacer nav desplegable

@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="estilo2.css">
+</head>
+
+<body>
+
+  <!--Header -->
+  <header>Pueblos a descubrir</header>
+
+
+  <!--Menu desplegable -->
+
+
+  <nav id="menu">
+    <ul>
+     
+      <li><a href="#">Destinos Exoticos</a>
+        <ul id="submenu">
+          <li><a href=#>Europa</a>
+            <ul id="submenu">
+              <li><a href="#españa">España</a></li>
+              <li><a href="#italia">Italia</a></li>
+              <li><a href="#grecia">Grecia</a></li>
+            </ul>
+          </li>
+          <li><a href="#america">America</a></li>
+          <li><a href="">Asia</a>
+            <ul id="submenu">
+              <li><a href="#asia1">Maldivas</a></li>
+              <li><a href="#asia2">Filipinas</a></li>
+              <li><a href="#asia3">Camboya</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+     
+    </ul>
+  </nav>
+<p id="enlace"><a href="index.html">Atrás</a></p>
+
+  <!-- Section con Articles-->
+
+  <section>
+    <article id="portada"> </article>
+    <article id="formu">
+      <form action="" method="post">
+
+        <p>
+          <label for="nombre">Nombre
+            <span class="obligatorio">*</span>
+          </label>
+          <input type="text" name="introducir_nombre" id="nombre" required="obligatorio"
+            placeholder="Escribe tu nombre">
+
+        <p>
+          <label for="email">Email
+            <span class="obligatorio">*</span>
+          </label>
+          <input type="email" name="email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+        </p>
+
+        <p>
+          <label for="telefone">Teléfono
+          </label>
+          <input type="tel" name="telef" id="telefono" placeholder="Escribe tu teléfono">
+        </p>
+
+        <p>
+          <label for="asunto">Asunto
+            <span class="obligatorio">*</span>
+          </label>
+          <input type="text" name="asunto" id="asunto" required="obligatorio" placeholder="Escribe un asunto">
+        </p>
+
+        <label for="mensaje" class="colocar_mensaje">Mensaje
+          <span class="obligatorio">*</span>
+        </label>
+
+        <textarea name="mensaje" class="texto_mensaje" id="mensaje" required="obligatorio"
+          placeholder="Deja aquí tu comentario..."></textarea>
+
+        <button type="submit" name="enviar_formulario" id="enviar">Enviar</button>
+      </form>
+    </article>
+
+    <!--españa-->
+    <article id="españa">
+      <h3>España</h3>
+      <div>
+        <a href="#españa1"><img src="imagenes/españa1.jpg"></a>
+        <a href="#españa2"><img src="imagenes/españa2.jpg"></a>
+        <a href="#españa3"><img src="imagenes/españa3.jpg"></a>
+        <a href="#españa4"> <img src="imagenes/españa4.jpg"></a>
+      </div>
+    </article>
+
+    <!--italia-->
+    <article id="italia">
+      <h3>Italia</h3>
+      <div>
+        <a href="#italia1"><img src="imagenes/italia1.jpg"></a>
+        <a href="#italia2"><img src="imagenes/ita2.jpg"></a>
+        <a href="#italia3"><img src="imagenes/italia3.jpg"></a>
+        <a href="#italia4"><img src="imagenes/italia4.jpg"></a>
+      </div>
+    </article>
+
+    <!--grecia-->
+    <article id="grecia">
+      <h3>Grecia</h3>
+      <div>
+        <a href="#grecia1"><img src="imagenes/grecia.jpg"></a>
+        <a href="#grecia2"><img src="imagenes/grecia2.jpg"> </a>
+        <a href="#grecia3"><img src="imagenes/grecia3.jpg"></a>
+        <a href="#grecia4"> <img src="imagenes/grecia4.jpg"></a>
+      </div>
+    </article>
+
+    <!--america-->
+    <article id="america" class="principal">
+      <h3>Cuba</h3>
+      <img src="imagenes/america1.jpg">
+      <p> Posiblemente la Playa de Varadero se encuentra entre las playas de Cuba más conocidas, ubicada a 120
+        kilómetros al este de La Habana, en la península de Hicacos [ver en mapa], en la provincia de Matanzas. Con 20
+        kilómetros de hermosa
+        arena blanca en una de las mejores playas que alberga la isla, Varadero es una atracción turística en si misma.
+      </p>
+      <div>     
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98958.5252724845!2d-1.4686684653972741!3d39.18713353438038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd66daf8a0c374c7%3A0x40340f3be4bcff0!2zQWxjYWzDoSBkZWwgSsO6Y2FyLCBBbGJhY2V0ZSwgRXNwYcOxYQ!5e0!3m2!1ses!2sgt!4v1604727822826!5m2!1ses!2sgt" 
+        width="100" height="100" frameborder="0" style="border:0" allowfullscreen></iframe></div>  
+    </article>
+
+    <!--asia-->
+    <article id="asia1" class="principal">
+      <h3>Maldivas</h3>
+      <img src="imagenes/asia1.jpg">
+      <p>Maldivas es un país tropical en el océano Índico que abarca 26 atolones con forma de anillos que se componen de
+        más de 1,000 islas de coral. Es conocido por las playas, las lagunas azules y los extensos arrecifes. La
+        capital, Malé, tiene un mercado de pescado ajetreado, restaurantes y tiendas en la avenida principal, Majeedhee
+        Magu, y la mezquita
+        del siglo XVII Hukuru Miskiy (también conocida como la Mezquita del Viernes), hecha de coral blanco tallado</p>
+      <div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98958.5252724845!2d-1.4686684653972741!3d39.18713353438038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd66daf8a0c374c7%3A0x40340f3be4bcff0!2zQWxjYWzDoSBkZWwgSsO6Y2FyLCBBbGJhY2V0ZSwgRXNwYcOxYQ!5e0!3m2!1ses!2sgt!4v1604727822826!5m2!1ses!2sgt"
+          width="100" height="100" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+    </article>
+
+    <article id="asia2" class="principal">
+      <h3>Filipinas</h3>
+      <img src="imagenes/asia2.jpg">
+      <p>Filipinas es un país del sur de Asia en el Pacífico Occidental, que abarca más de siete mil islas. Su capital,
+        Manila, es famosa por su paseo costero y Binondo, el barrio chino de siglos de antigüedad. Intramuros, una
+        ciudad amurallada en la época colonial, es el núcleo de Manila Antigua. Cuenta con
+        la iglesia barroca de San Agustín, del siglo XVII, y el fuerte Santiago, una ilustre ciudadela y prisión
+        militar. </p>
+      <div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98958.5252724845!2d-1.4686684653972741!3d39.18713353438038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd66daf8a0c374c7%3A0x40340f3be4bcff0!2zQWxjYWzDoSBkZWwgSsO6Y2FyLCBBbGJhY2V0ZSwgRXNwYcOxYQ!5e0!3m2!1ses!2sgt!4v1604727822826!5m2!1ses!2sgt"
+          width="100" height="100" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+    </article>
+
+    <article id="asia3" class="principal">
+      <h3>Camboya</h3>
+      <img src="imagenes/asia3.jpg">
+      <p>Camboya es un país del Sudeste Asiático cuyo paisaje abarca llanuras bajas, el delta del Mekong, montañas y la
+        costa del golfo de Tailandia. Nom Pen, su capital, alberga el Mercado Central de estilo art decó, el reluciente
+        palacio real y las exhibiciones arqueológicas e históricas del Museo Nacional. En el noroeste del país,
+        se encuentran las ruinas de Angkor Wat, un enorme complejo de templos de piedra construido durante el Imperio
+        Jemer.</p>
+        <div>     
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98958.5252724845!2d-1.4686684653972741!3d39.18713353438038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd66daf8a0c374c7%3A0x40340f3be4bcff0!2zQWxjYWzDoSBkZWwgSsO6Y2FyLCBBbGJhY2V0ZSwgRXNwYcOxYQ!5e0!3m2!1ses!2sgt!4v1604727822826!5m2!1ses!2sgt" 
+          width="100" height="100" frameborder="0" style="border:0" allowfullscreen></iframe></div>  
+    </article>
+
+
+    <!--Articles de España-->
+    <article id="españa1" class="principal">
+      <h3>Asturias</h3>
+      <img src="imagenes/españa1.jpg" alt="">
+      <p>Se trata de una aproximación a una zona que no te dejará indiferente,
+        por lo que estamos seguros de que repetirás en el futuro para saborearla sin prisas
+        y conocer aquellos rincones que te han quedado pendientes. El recorrido transcurre
+        a lo largo de la costa, de punta a punta –de Cantabria a Galicia-, entre playas,
+        acantilados, pequeños pueblos pesqueros, calas... Y es que la Costa Verde -como es
+        conocido el litoral asturiano -Castropol a Ribadedeva- puede presumir de un paisaje espectacular.</p>
+      <div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98958.5252724845!2d-1.4686684653972741!3d39.18713353438038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd66daf8a0c374c7%3A0x40340f3be4bcff0!2zQWxjYWzDoSBkZWwgSsO6Y2FyLCBBbGJhY2V0ZSwgRXNwYcOxYQ!5e0!3m2!1ses!2sgt!4v1604727822826!5m2!1ses!2sgt"
+          width="100" height="100" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+    </article>
+
+    <article id="españa2" class="principal">
+      <h3>Alcala del Jucar</h3>
+      <img src="imagenes/españa2.jpg" alt="">
+      <p>Alcalá del Júcar se encuentra situado en el noroeste de la provincia de Albacete, englobado dentro de la
+        comarca de La Manchuela. Fue declarado conjunto Histórico-Artístico en 1982. En 1986 le fue
+        concedido el tercer premio, después de la Torre Eiffel y la Gran Mezquita de Estambul, a la mejor iluminación
+        artística.</p>
+      <div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98958.5252724845!2d-1.4686684653972741!3d39.18713353438038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd66daf8a0c374c7%3A0x40340f3be4bcff0!2zQWxjYWzDoSBkZWwgSsO6Y2FyLCBBbGJhY2V0ZSwgRXNwYcOxYQ!5e0!3m2!1ses!2sgt!4v1604727822826!5m2!1ses!2sgt"
+          width="100" height="100" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+    </article>
+
+    <article id="españa3" class="principal">
+      <H3>El Castell de Guadalest</H3>
+      <img src="imagenes/españa3.jpg" alt="">
+      <p>El Castell de Guadalest es un municipio pequeño situado en el interior de la provincia de Alicante. El mayor
+        atractivo es su ubicación. Cuando
+        alguien lo visita, por primera vez, se queda impresionado al ver sobre una roca las ruinas del castillo y el
+        campanario.</p>
+      <div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98958.5252724845!2d-1.4686684653972741!3d39.18713353438038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd66daf8a0c374c7%3A0x40340f3be4bcff0!2zQWxjYWzDoSBkZWwgSsO6Y2FyLCBBbGJhY2V0ZSwgRXNwYcOxYQ!5e0!3m2!1ses!2sgt!4v1604727822826!5m2!1ses!2sgt"
+          width="100" height="100" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+    </article>
+
+    <article id="españa4" class="principal">
+      <H3>Cudillero</H3>
+      <img src="imagenes/españa4.jpg" alt="">
+      <p>Sus miradores, sus casas multicolores, su puerto y sus especialidades culinarias como el
+        pixuetín o el curadillo hacen que esta preciosa villa marinera sea el destino perfecto para una escapada.</p>
+      <div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98958.5252724845!2d-1.4686684653972741!3d39.18713353438038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd66daf8a0c374c7%3A0x40340f3be4bcff0!2zQWxjYWzDoSBkZWwgSsO6Y2FyLCBBbGJhY2V0ZSwgRXNwYcOxYQ!5e0!3m2!1ses!2sgt!4v1604727822826!5m2!1ses!2sgt"
+          width="100" height="100" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+    </article>
+
+    <!--Articles de ITALIA-->
+
+    <article id="italia1" class="principal">
+      <h3>Las cinque terre</h3>
+      <img src="imagenes/italia1.jpg" alt="">
+      <p>Cinque Terre es una franja de ciudades costeras de siglos de antigüedad en la escabrosa costa de la Riviera
+        italiana. En cada una de las cinco ciudades, las casas coloridas y los viñedos se aferran a empinadas terrazas,
+        los puertos están llenos de botes pesqueros y las trattorias ofrecen especialidades de mariscos junto con la
+        famosa salsa de la región de Liguria,
+        el pesto. El sendero de excursión Sentiero Azzurro, en el acantilado, conecta las ciudades y ofrece vistas
+        panorámicas del mar.</p>
+      <div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98958.5252724845!2d-1.4686684653972741!3d39.18713353438038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd66daf8a0c374c7%3A0x40340f3be4bcff0!2zQWxjYWzDoSBkZWwgSsO6Y2FyLCBBbGJhY2V0ZSwgRXNwYcOxYQ!5e0!3m2!1ses!2sgt!4v1604727822826!5m2!1ses!2sgt"
+          width="100" height="100" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+    </article>
+
+    <article id="italia2" class="principal">
+      <h3>Verona</h3>
+      <img src="imagenes/ita2.jpg" alt="">
+      <p>Verona es una ciudad de la región Véneto, en el norte de Italia. Es una ciudad
+        preciosa que es mundialmente famosa por la historia de Romeo y Julieta escrita por el gran dramaturgo inglés
+        William Shakespeare; por eso, se conoce como la ciudad más romántica de Italia. Verona es la segunda ciudad
+        artística por importancia de la región, después de Venecia. Fue un centro muy importante bajo los Etruscos,
+        después bajo los Romanos, durante la Edad Media con el gobierno de la familia Scaligeri, y parte de la República
+        de Venecia. </p>
+      <div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98958.5252724845!2d-1.4686684653972741!3d39.18713353438038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd66daf8a0c374c7%3A0x40340f3be4bcff0!2zQWxjYWzDoSBkZWwgSsO6Y2FyLCBBbGJhY2V0ZSwgRXNwYcOxYQ!5e0!3m2!1ses!2sgt!4v1604727822826!5m2!1ses!2sgt"
+          width="100" height="100" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+    </article>
+
+    <article id="italia3" class="principal">
+      <h3>Napoles</h3>
+      <img src="imagenes/italia3.jpg" alt="">
+      <p>Nápoles es color, es Vesuvio, es mar, es gente alegre, es caos, es tráfico, es ruido, es folklore, es música,
+        es pizza mmm la pizza de Nápoles! “Vedi Napoli e muori” (Ve Napoles y muere) se suele decir… todavía no tengo
+        muy claro si es porque es tan bonita que ya no te hace falta ver más o si es porque el riesgo de que te
+        atropelle una moto con 3 personas sin casco es muy alto. Pero una cosa es verdad: Nápoles no te dejará
+        indiferente. Si tienes la suerte de
+        poder visitar la ciudad más colorida de Italia te contamos las cosas que tienes que ver y hacer en Nápoles.</p>
+      <div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98958.5252724845!2d-1.4686684653972741!3d39.18713353438038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd66daf8a0c374c7%3A0x40340f3be4bcff0!2zQWxjYWzDoSBkZWwgSsO6Y2FyLCBBbGJhY2V0ZSwgRXNwYcOxYQ!5e0!3m2!1ses!2sgt!4v1604727822826!5m2!1ses!2sgt"
+          width="100" height="100" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+    </article>
+
+    <article id="italia4" class="principal">
+      <h3>Turin</h3>
+      <img src="imagenes/italia4.jpg" alt="">
+      <p>Hay muchas cosas que hacer en Turín, una ciudad preciosa con un gran centro histórico al pie de los Alpes y
+        rodeada por los ríos Po y Dora, con sus calles y plazas porticadas, sus restaurantes y históricos cafés, merece
+        una visita de 2 o 3 días. También podemos afirmar que es la gran olvidada de Italia y es que en cualquier otro
+        país.
+        </p>
+      <div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98958.5252724845!2d-1.4686684653972741!3d39.18713353438038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd66daf8a0c374c7%3A0x40340f3be4bcff0!2zQWxjYWzDoSBkZWwgSsO6Y2FyLCBBbGJhY2V0ZSwgRXNwYcOxYQ!5e0!3m2!1ses!2sgt!4v1604727822826!5m2!1ses!2sgt"
+          width="100" height="100" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+    </article>
+
+    <!--Article de Grecia-->
+
+    <article id="grecia1" class="principal">
+      <h3>Mykonos</h3>
+      <img src="imagenes/grecia.jpg" alt="">
+      <p>Santoini y Mykonos, dos islas con encanto donde poder disfrutar de unas vacaciones de ensueño y, donde una de
+        las islas ofrece más calma Santorini y la otra puede ser un destino para aquellas personas que les guste la
+        fiesta, Mykonos, ya que la llaman la ibiza italiana. Lo cierto es que para viajar a estos destinos se deben
+        coger con tiempo ya que así sale mucho más económico el viaje.</p>
+      <div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98958.5252724845!2d-1.4686684653972741!3d39.18713353438038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd66daf8a0c374c7%3A0x40340f3be4bcff0!2zQWxjYWzDoSBkZWwgSsO6Y2FyLCBBbGJhY2V0ZSwgRXNwYcOxYQ!5e0!3m2!1ses!2sgt!4v1604727822826!5m2!1ses!2sgt"
+          width="100" height="100" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+    </article>
+
+    <article id="grecia2" class="principal">
+      <h3>Atenas</h3>
+      <img src="imagenes/grecia2.jpg" alt="">
+      <p>Atenas es la capital de Grecia. También se encontraba en el centro de la Antigua Grecia, un poderoso imperio y
+        civilización. En la ciudad, aún predominan los sitios geográficos del siglo V a. C., incluida la Acrópolis, una
+        ciudadela sobre un monte con antiguos edificios, como el templo del Partenón con sus columnas. En el Museo de la
+        Acrópolis y en el Museo Arqueológico Nacional,
+        se preservan esculturas, jarrones, joyas y más elementos de la Antigua Grecia.</p>
+      <div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98958.5252724845!2d-1.4686684653972741!3d39.18713353438038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd66daf8a0c374c7%3A0x40340f3be4bcff0!2zQWxjYWzDoSBkZWwgSsO6Y2FyLCBBbGJhY2V0ZSwgRXNwYcOxYQ!5e0!3m2!1ses!2sgt!4v1604727822826!5m2!1ses!2sgt"
+          width="100" height="100" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+    </article>
+
+    <article id="grecia3" class="principal">
+      <h3>Naxos</h3>
+      <img src="imagenes/grecia3.jpg" alt="">
+      <p>Naxos es la isla más extensa de las Cícladas, un archipiélago griego situado en el mar Egeo. Su fértil paisaje
+        abarca aldeas de montaña, ruinas ancestrales e interminables playas. La capital homónima (también llamada "Hora"
+        o "Chora") es un municipio portuario de casas encaladas y mansiones
+        medievales de la época veneciana. El kastro o castillo, del siglo XIII, alberga un museo arqueológico.</p>
+      <div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98958.5252724845!2d-1.4686684653972741!3d39.18713353438038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd66daf8a0c374c7%3A0x40340f3be4bcff0!2zQWxjYWzDoSBkZWwgSsO6Y2FyLCBBbGJhY2V0ZSwgRXNwYcOxYQ!5e0!3m2!1ses!2sgt!4v1604727822826!5m2!1ses!2sgt"
+          width="100" height="100" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+    </article>
+
+    <article id="grecia4" class="principal">
+      <h3>Rodas</h3>
+      <img src="imagenes/grecia4.jpg" alt="">
+      <p>Rodas, la isla más grande del Dodecaneso en Grecia, es famosa por sus centros turísticos en la playa, las
+        ruinas antiguas y los restos de su ocupación por parte de la Orden de San Juan durante las Cruzadas. La ciudad
+        de Rodas tiene una Ciudad Antigua con la Calle de los Caballeros medieval y el palacio del Gran Maestre, similar
+        a un castillo. El palacio fue capturado
+        por los otomanos y, luego, lo ocuparon los italianos; actualmente, es un museo de historia. </p>
+      <div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d98958.5252724845!2d-1.4686684653972741!3d39.18713353438038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd66daf8a0c374c7%3A0x40340f3be4bcff0!2zQWxjYWzDoSBkZWwgSsO6Y2FyLCBBbGJhY2V0ZSwgRXNwYcOxYQ!5e0!3m2!1ses!2sgt!4v1604727822826!5m2!1ses!2sgt"
+          width="100" height="100" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+    </article>
+
+  </section>
+
+  <footer>
+    <p>Author: Sandra Amoros Reyes</p>
+    <p>Author: Karina Acoste</p>
+
+    
+ 
+
+  </footer>
+
+</body>
+
+</html>

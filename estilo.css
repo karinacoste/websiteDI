@@ -1,12 +1,14 @@
 
-
+body {
+    background-color:pink;
+}
 .hero {
     overflow: hidden;
     text-align: center;
     color: #fff;
 }
 
-#home-section {
+#section-pueblos {
  
     
     width: 100%;
@@ -14,7 +16,7 @@ margin-top:60px;
   
  
 }
-#home-section img {
+#section-pueblosimg {
     width: 100%;
    
     
@@ -41,6 +43,7 @@ header img {
 }
 #menu{
     margin-left: 40%;
+    margin-bottom:40px;
     padding: 30px 50px 0 0;
 }
 
@@ -102,12 +105,12 @@ section{
     text-align: center;
 }
 
-#contenedor{
+#contenedor-pueblos{
     background-color:green;
     text-align: center;
     margin-left: 250px;
 }
-#contenedor div {
+#contenedor-pueblos div {
  
    
     float: left;
@@ -115,7 +118,7 @@ section{
   
     margin-left: 30px;
 }
-#contenedor img {
+#contenedor-pueblos img {
     
     width: 20em;
     height: 15em;
@@ -128,22 +131,22 @@ h1{
 h3{
     font-size:25px;
 }
-#nueva{
+#section-imagenes{
     clear: both;
    
 }
 
-#nueva div {
+#section-imagenes div {
   
     margin-bottom:60px;
 }
-#contenedor2{
+#contenedor-imagenes{
     background-color:green;
     
-  margin-left: 20%;
+  margin-left: 21%;
     margin-bottom:60px;
 }
-#contenedor2 div {
+#contenedor-imagenes div {
  
     margin-left: 10px;
    margin-top:30px;
@@ -155,16 +158,14 @@ h3{
     width: 60%;
     margin-left: 20px;;
 }
-#contenedor2 img {
+#contenedor-imagenes img {
     
     width: 8.5em;
     height: 8em;
    
 }
-#section-final{
+#section-formulario{
     clear: both;
-
-
 }
 
 /* formulario */

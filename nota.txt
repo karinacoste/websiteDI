@@ -1,3 +1,7 @@
 en la pagina principal me falta el formulario
 las paginas secundarias faltan por hacer el diseño y esctructura
 falta por hacer nav desplegable
+
+
+para inspirarnos en el menu -> https://www.minube.com/mis-viajes/los-35-pueblos-mas-bonitos-del-mundo-g1512195
+guias de viaje -> https://guias-viajar.com/espana/mejores-sitios-que-ver-visitar/  (util de viaje)

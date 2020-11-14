@@ -4,31 +4,37 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="estilo.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,500&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="imagenes/favicon-32x32.png" sizes="32x32">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
 
+
   <header>
-    <img src="imagenes/logo.jpg" alt="">
+    <img src="imagenes/logo.png" alt="">
   </header>
 
-  <nav id="menu">
-    <ul>
-      <li><a href="#">Quienes somos </a></li>
-      <li><a href="">Planificate</a>
-        <ul id="submenu">
-          <li><a href="">Blog </a></li>
-          <li><a href="">Guias de viaje </a></li>
-        </ul>
+  <nav>
+    <ul class="menu">
+      <li><a href="#">Quiénes somos </a></li>     
+      <li class="dropdown"><a href="">Planifícate<i class="material-icons">keyboard_arrow_right</i></a>
+        <div class="dropdown-content">
+          
+            <ul class="dropMenu">
+                <li><a href="">Blog </a></li>
+                <li><a href="">Guias de viaje </a></li>
+                <li><a href="">Guias de viaje </a></li>
+                <li><a href="#america">Rankin </a></li>
+                <li><a href="#america">Consejos para viajar tras el covid </a></li>
+            </ul>
+        </div>       
       </li>
-      <li><a href="">No te pierdas </a>
-        <ul id="submenu">
-          <li><a href="#america">Rankin </a></li>
-          <li><a href="#america">Consejos para viajar tras el covid </a></li>
-        </ul>
-      </li>
+      <li><a href="">No te pierdas </a></li>
       <li><a href="#formu">Contacto</a></li>
-    </ul>
+    </ul>    
   </nav>
 
   <!-- Esta seccion cuenta solamente con una imagen -->
@@ -36,91 +42,102 @@
     <img class="portada-imagen" src="imagenes/albarracin.jpg" alt="">
   </section>
 
-  <section id="section-pueblos">
-    <h1>Los pueblos mas chulos para visitar o vivir </h1>
-    <div id="contenedor-pueblos">
-      <div><img src="imagenes/div1.jpg" alt="">
-        <h3>En la montaña</h3>
-        <p>pupupu</p>
 
-      </div>
-      <div><img src="imagenes/div2.jpg" alt="">
-        <h3>Cerca del mar</h3>
-        <p>pupupu</p>
-      </div>
+  <main>
 
-      <div><img src="imagenes/grecia2.jpg" alt="">
-        <h3>Escondidos</h3>
-        <p>pupupu</p>
-      </div>
-    </div>
+    <section class="row">
 
-    <a href="destinos.html">Ver mas pueblos </a>
-  </section>
+        <h1 class="marginTop40">Las categorías de pueblos más populares</h1>
 
+        
+        <div class="row">
+            <div class="col">
+                    <img src="imagenes/pueblo1.png" alt="">
+                    <h3 class="marginTop10">En la montaña</h3>
+                    <p>Phasellus luctus nisi at nulla convallis convallis.</p>              
+            </div>
+            <div class="col">
+                <img src="imagenes/pueblo2.png" alt="">
+                <h3 class="marginTop10">Cerca del mar</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut dignissim neque. </p>              
+            </div>
+            <div class="col">
+                <img src="imagenes/pueblo3.png" alt="">
+                <h3 class="marginTop10">Econdidos</h3>
+                <p>Aliquam sit amet eros accumsan, pretium purus sed, faucibus neque.</p>              
+            </div>
 
-  <section id="section-imagenes">
-    <h1>Imagenes subidas por nuesros usuarios</h1>
-    <img id="imagen-principal" src="imagenes/portada.jpg" alt="">
-    <div id="contenedor-imagenes">
-      <div><img src="imagenes/div1.jpg" alt=""></div>
-      <div><img src="imagenes/grecia.jpg" alt=""> </div>
-      <div><img src="imagenes/grecia2.jpg" alt=""> </div>
-      <div><img src="imagenes/asia1.jpg" alt=""> </div>
-      <div><img src="imagenes/america1.jpg" alt=""> </div>
-      <div><img src="imagenes/italia3.jpg" alt=""> </div>
-    </div>
-    </div>
-
-    <a href="galeria.html">Ver Galeria</a>
-  </section>
+        </div>
 
 
+        
+        <a class="button marginTop40" href="destinos.html">Ver más categorías</a>
 
-  <section id="section-formulario">
+    </section>
 
-    <h1>Vives en un pueblo chulo?</h1>
-    <h3>Comparte tu experiencia y cuentanos porque el pueblo donde vives es tan especial!</h3>
 
-    <form action="" method="post">
+    <section class="row">
+        <h1 class="marginTop60">Imágenes subidas por nuestros usuarios</h1>
+        <img  class="marginTop40" src="imagenes/portada.jpg" alt="">
+        <div id="contenedor-imagenes">
+        <div><img src="imagenes/div1.jpg" alt=""></div>
+        <div><img src="imagenes/grecia.jpg" alt=""> </div>
+        <div><img src="imagenes/grecia2.jpg" alt=""> </div>
+        <div><img src="imagenes/asia1.jpg" alt=""> </div>
+        <div><img src="imagenes/america1.jpg" alt=""> </div>
+        <div><img src="imagenes/italia3.jpg" alt=""> </div>
+        </div>
+        </div>
 
-      <p>
-        <label for="nombre">Nombre
-          <span class="obligatorio">*</span>
+        <a class="button marginTop40" href="destinos.html">Ver más galerías</a>
+    </section>
+
+
+
+    <section class="row">
+
+        <h1 class="marginTop60">¿Vives en un pueblo chulo?</h1>
+        <h3>¡Comparte tu experiencia y cuéntanos por qué el pueblo donde vives es tan especial!</h3>
+
+        <form action="" method="post" class="form1 marginTop40">
+            <label for="nombre">Nombre
+                <span class="obligatorio">*</span>
+            </label>
+            <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+
+
+            <label for="email">Email
+            <span class="obligatorio">*</span>
+            </label>
+            <input type="text" name="email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+    
+
+            <label for="telefone">Nombre de tu pueblo
+            </label>
+            <input type="text" name="telef" id="telefono" placeholder="Escribe el nombre de tu pueblo">
+  
+
+   
+            <label for="asunto">Dirección
+            <span class="obligatorio">*</span>
+            </label>
+            <input type="text" name="asunto" id="asunto" required="obligatorio" placeholder="Escribe la dirección">
+      
+               
+        <label for="mensaje" class="colocar_mensaje">Mensaje
+            <span class="obligatorio">*</span>
         </label>
-        <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
 
-      <p>
-        <label for="email">Email
-          <span class="obligatorio">*</span>
-        </label>
-        <input type="email" name="email" id="email" required="obligatorio" placeholder="Escribe tu Email">
-      </p>
-
-      <p>
-        <label for="telefone">Teléfono
-        </label>
-        <input type="tel" name="telef" id="telefono" placeholder="Escribe tu teléfono">
-      </p>
-
-      <p>
-        <label for="asunto">Asunto
-          <span class="obligatorio">*</span>
-        </label>
-        <input type="text" name="asunto" id="asunto" required="obligatorio" placeholder="Escribe un asunto">
-      </p>
-
-      <label for="mensaje" class="colocar_mensaje">Mensaje
-        <span class="obligatorio">*</span>
-      </label>
-
-      <textarea name="mensaje" class="texto_mensaje" id="mensaje" required="obligatorio"
+        <textarea name="mensaje"  id="mensaje" required="obligatorio"
         placeholder="Deja aquí tu comentario..."></textarea>
+   
+       
 
-      <button type="submit" name="enviar_formulario" id="enviar">Enviar</button>
-    </form>
-  </section>
-
+        <button type="submit" name="enviar_formulario" id="enviar" class="button marginTop40">Enviar</button>
+        </form>
+    </section>
+    
+    </main>
 
 </body>
 

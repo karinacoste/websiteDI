@@ -38,13 +38,15 @@ h3{
 
   .button:hover{
     background-color:#A931DB;
-    outline-color: :#A931DB;
+   
  
   }
-
+.marginleft20{
+    margin-left: 20px;
+}
 .marginTop40{
     margin-top: 40px;
-    
+   
 }
 
 .marginTop60{
@@ -70,6 +72,16 @@ header{
     margin: 0 auto;
     background-color: white;
     
+}
+footer{
+    background-color: #E5E5E5;
+    text-align: center;
+    margin-top:30px;
+
+}
+footer img {
+    width: 120px;
+    height: 50px;
 }
 
 
@@ -266,7 +278,10 @@ section{
     width: 20em;
     height: 15em;
 }
-
+#buton-galeria{
+  
+  
+}
 
 
 #section-imagenes div {
@@ -276,7 +291,7 @@ section{
 #contenedor-imagenes{
     background-color:green;
     
-  margin-left: 21%;
+  margin-left: 15%;
     margin-bottom:60px;
 }
 #contenedor-imagenes div {

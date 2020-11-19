@@ -1,4 +1,6 @@
 
+
+
 *{
     margin: 0;
     padding: 0;
@@ -9,7 +11,10 @@ body{
     font-family: 'Roboto', sans-serif, Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
+
+
 h1{
+   
     color:purple;
     font-size: 38px;;
 }
@@ -17,7 +22,8 @@ h3{
     font-size:25px;
     color: #4D4D4D;
 }
-/* HEADER */
+
+/*HEADER*/
 header{
     width: 1280px; 
     height: 46px;
@@ -26,6 +32,7 @@ header{
     background-color: white;
     
 }
+
 
 /* FOOTER */
 footer{
@@ -39,6 +46,7 @@ footer img {
     height: 50px;
 }
 
+
 /* BOTON */
 .button {
     background-color:#752995;
@@ -46,28 +54,37 @@ footer img {
     padding: 15px 40px;
     text-align: center;
     text-decoration: none;
-    display: inline-block; /*se comportan como un bloque pero en linea*/
+    display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    outline-color: #A931DB;  
+    outline-color: #A931DB;
+    
+  }
+  .button:hover{
+    background-color:#A931DB;
+    outline-color: #A931DB;
   }
 
-/* CLASES */  
-.marginleft20{
-    margin-left: 20px;
-}
+
+/* CLASES */
+
 .marginTop40{
     margin-top: 40px;
-   
+    
 }
 .marginTop60{
-    margin-top: 60px;  
+    margin-top: 60px;
+    
+}
+.marginleft20{
+    margin-left: 20px;
 }
 .marginTop10{
     margin-top: 10px;
     
 }
+
 /* MENU */
 nav{ 
     width: 1280px; 
@@ -76,16 +93,23 @@ nav{
 }
 .menu{
     float: right;
+    
 }
+
 .menu li{
     display:inline-block;
     padding: 0px 20px 20px 0px;
+
 }
+
 .menu a {
     text-decoration: none;
     color: #752995;
     font-weight: 700;
+
+
 }
+
 .menu a:hover {
     color: #A931DB;
 }
@@ -95,18 +119,21 @@ nav{
     font-size: medium;
     color: #A931DB;
 } 
+
 .dropdown{
     position: relative;
     display: inline-block;
 }
+
 .dropdown li{
     display:block;
     
 }
 .dropdown a:hover {
     color: #A931DB;
- }
+    
 
+ }
 .dropdown-content {
     display: none;
     position: absolute;
@@ -121,16 +148,15 @@ nav{
  .dropdown:hover .dropdown-content {
     display: block;
 }
-
 main{
     width: 1280px;
-    margin: 0 auto; 
+    margin: 0 auto;
+    
 }
 .row{
     width: 100%;
     margin-top: 20px;
 }
-
 .col{
     width:367px;
     display: inline-block;
@@ -138,45 +164,46 @@ main{
     text-align: justify;
     padding: 10px;
 }
+#section-portada img{
+ width: 100%;
+}
 
 section{
     text-align: center;
 }
-
 #contenedor-imagenes{
     background-color:green;
     
-  margin-left: 15%;
+  margin-left:15%;
     margin-bottom:60px;
 }
 #contenedor-imagenes div {
  
     margin-left: 10px;
    margin-top:30px;
-    float: left; 
+    float: left;
 }
+
 #contenedor-imagenes img {
+    
     width: 8.5em;
-    height: 8em;
-   
+    height: 8em; 
 }
-
-
-
-
-
 
 
 /* formulario */
+
 
 form{
     padding: 10px;
     width: 60%;
     margin: 0 auto;
 }
+
 form p{
     margin-top: 20px;
 }
+
 input[type=text]{
 
     height: 25px;
@@ -189,11 +216,14 @@ input[type=text]{
 }
 input[type=text]:focus{
     outline-color: #A931DB;
+    
+
 } 
 
 input[type=submit]{
     outline-color: #A931DB;
     border-radius: 8px;
+
 } 
 
 label
@@ -219,3 +249,4 @@ textarea{
     font-size: 14px;
     outline-color: #A931DB;
 }
+

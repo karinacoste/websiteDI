@@ -122,7 +122,9 @@ nav{
 
 .dropdown{
     position: relative;
-    display: inline-block;
+    display: inline-block; /*Los elementos inline-block fluyen
+                             con el texto y demás elementos 
+                             como si fueran elementos en-línea y además respetan el ancho, el alto y los márgenes verticales*/
 }
 
 .dropdown li{
@@ -146,31 +148,32 @@ nav{
   }
   
  .dropdown:hover .dropdown-content {
-    display: block;
+    display: block; /* elemento sea como un bloque*/
 }
+
+#section-portada img{
+    width: 100%; /*para que ocupe todo el width de la pagina*/
+   } 
+   
 main{
     width: 1280px;
     margin: 0 auto;
     
 }
-.row{
-    width: 100%;
-    margin-top: 20px;
-}
-.col{
+section{
+    text-align: center;
+   }
+
+
+.contenedor-pueblos{
     width:367px;
     display: inline-block;
     vertical-align: top;
     text-align: justify;
     padding: 10px;
 }
-#section-portada img{
- width: 100%;
-}
 
-section{
-    text-align: center;
-}
+
 #contenedor-imagenes{
     background-color:green;
     
@@ -180,7 +183,7 @@ section{
 #contenedor-imagenes div {
  
     margin-left: 10px;
-   margin-top:30px;
+    margin-top:30px;
     float: left;
 }
 

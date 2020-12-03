@@ -32,6 +32,9 @@ header{
     background-color: white;
     
 }
+header img {
+    padding-top:20px;
+}
 
 
 /* FOOTER */
@@ -78,7 +81,7 @@ footer img {
     
 }
 .marginleft20{
-    margin-left: 20px;
+  margin-left: 20px;
 }
 .marginTop10{
     margin-top: 10px;
@@ -155,12 +158,12 @@ nav{
     width: 100%; /*para que ocupe todo el width de la pagina*/
    } 
    
-main{
+#main{
     width: 1280px;
     margin: 0 auto;
     
 }
-section{
+div{
     text-align: center;
    }
 
@@ -176,8 +179,8 @@ section{
 
 #contenedor-imagenes{
     background-color:green;
-    
-  margin-left:15%;
+   
+  margin-left:20%;
     margin-bottom:60px;
 }
 #contenedor-imagenes div {

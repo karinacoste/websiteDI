@@ -30,7 +30,7 @@
             <li><a href="">Para vivir </a></li>
             <li><a href="">Cerca del mar</a></li>
             <li><a href="">En la montaña</a></li>
-            <li><a href="">Escondidos</a></li>
+            <li><a href="destinos.html#escondidos">Escondidos</a></li>
             <li><a href="">Medievales</a></li>
           </ul>
         </div>
@@ -44,45 +44,49 @@
           </ul>
         </div>
       </li>
-      <li><a href="#formu">Contacto</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
     </ul>
   </nav>
 
   <!-- Esta seccion cuenta solamente con una imagen -->
-  <section id="section-portada">
+  <div id="section-portada">
     <img src="imagenes/albarracin.jpg" alt="">
-  </section>
+  </div>
 
 
-  <main>
+  <div id="main">
 
-    <section >
+    <div >
 
       <h1 class="marginTop40">Las categorías de pueblos más populares</h1>
 
       <!-- se trata de un div que contiene 3 divs -->
       <div>
+      <div>
         <div class="contenedor-pueblos">
-          <img src="imagenes/pueblo1.png" alt="">
-          <h3 class="marginTop10">En la montaña</h3>
+          <a href="destinos.html#montaña"><img src="imagenes/pueblo1.png" alt=""></a>
+          
+          <h3 class="marginTop10">En la montaña </h3>
           <p>Phasellus luctus nisi at nulla convallis convallis.</p>
         </div>
         <div class="contenedor-pueblos">
-          <img src="imagenes/pueblo2.png" alt="">
+          <a href="destinos.html#cerca_mar"> <img src="imagenes/pueblo2.png" alt=""></a>
+         
           <h3 class="marginTop10">Cerca del mar</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut dignissim neque. </p>
         </div>
         <div class="contenedor-pueblos">
-          <img src="imagenes/pueblo3.png" alt="">
+          <a href="destinos.html#escondidos"> <img src="imagenes/pueblo3.png" alt=""></a>
+         
           <h3 class="marginTop10">Econdidos</h3>
           <p>Aliquam sit amet eros accumsan, pretium purus sed, faucibus neque.</p>
         </div>
       </div>
-      <a class="button marginTop40" href="">Ver más categorías</a>
-     </section>
+      <a class="button marginTop40" href="destinos.html">Ver más categorías</a>
+    </div>
 
 
-    <section>
+    <div>
       <h1 class="marginTop60">Imágenes subidas por nuestros usuarios</h1>
       <img class="marginTop40" src="imagenes/portada.jpg" alt="">
       <div id="contenedor-imagenes">
@@ -94,50 +98,11 @@
         <div><img src="imagenes/italia3.jpg" alt=""> </div>
       </div>
       </div>
-      <a class="button marginTop40 button marginleft20" href="">Ver más galerías</a>
-    </section>
-
-     <section>
-
-      <h1 class="marginTop60">¿Vives en un pueblo chulo?</h1>
-      <h3>¡Comparte tu experiencia y cuéntanos por qué el pueblo donde vives es tan especial!</h3>
-
-      <form action="" method="post" class="marginTop40">
-        <label for="nombre">Nombre
-          <span class="obligatorio">*</span>
-        </label>
-        <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
-
-
-        <label for="email">Email
-          <span class="obligatorio">*</span>
-        </label>
-        <input type="text" name="email" id="email" required="obligatorio" placeholder="Escribe tu Email">
-
-
-        <label for="telefone">Nombre de tu pueblo
-        </label>
-        <input type="text" name="telef" id="telefono" placeholder="Escribe el nombre de tu pueblo">
-
-
-
-        <label for="asunto">Dirección
-          <span class="obligatorio">*</span>
-        </label>
-        <input type="text" name="asunto" id="asunto" required="obligatorio" placeholder="Escribe la dirección">
-
-
-        <label for="mensaje" class="colocar_mensaje">Mensaje
-          <span class="obligatorio">*</span>
-        </label>
-
-        <textarea name="mensaje" id="mensaje" required="obligatorio"
-          placeholder="Deja aquí tu comentario..."></textarea>
-
-        <button type="submit" name="enviar_formulario" id="enviar" class="button marginTop40">Enviar</button>
-      </form>
-    </section>
-  </main>
+      
+    
+  <a class="button marginTop40" href="galeria.html">Ver más galerías</a>
+  </div>
+  
 
   <footer>
     <img src="imagenes/logo2.jpg" alt="">

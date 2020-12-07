@@ -1,6 +1,4 @@
 
-
-
 *{
     margin: 0;
     padding: 0;
@@ -154,11 +152,11 @@ nav{
     display: block; /* elemento sea como un bloque*/
 }
 
-#section-portada img{
+.section-portada img{
     width: 100%; /*para que ocupe todo el width de la pagina*/
    } 
    
-#main{
+.main{
     width: 1280px;
     margin: 0 auto;
     
@@ -176,24 +174,35 @@ div{
     padding: 10px;
 }
 
-
-#contenedor-imagenes{
-    background-color:green;
-   
-  margin-left:20%;
-    margin-bottom:60px;
+.contenedor-galeria {
+    width: 72.5em;
+    height: 37.5em;
+    margin: 0 auto ;
+    overflow: hidden;
+    
 }
-#contenedor-imagenes div {
- 
-    margin-left: 10px;
+
+.contenedor-galeria img {
+    width: 100%;
+    height: 100%;
+}
+
+.contenedor-imagenes{
+    margin: 0 0 60px 6vw;
+    clear: both;
+    overflow: auto;
+}
+.contenedor-imagenes a {
+    display: block;
+    margin-left: 2vw;
     margin-top:30px;
     float: left;
 }
 
-#contenedor-imagenes img {
+.contenedor-imagenes img {
     
-    width: 8.5em;
-    height: 8em; 
+    width: 9.5vw;
+    height: 8.75vw; 
 }
 
 

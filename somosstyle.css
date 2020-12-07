@@ -1,0 +1,82 @@
+body{
+    background-image: url('imagenes/fondo2.jpg');
+    margin:0;
+
+
+}
+header{
+    color: white;
+    background-color: black;
+    margin-top: 20px;
+    padding: 5px;
+}
+header img {
+}
+
+.principal{
+    border: 2px solid purple;
+    border-radius: 20px;
+    width: 60%;
+   text-align: center;
+    /* text-align: center; */
+    margin-left: 350px;
+    margin-top: 10px;
+    background: -webkit-linear-gradient(90deg, yellow 10%, orange 90%);
+    background: -moz-linear-gradient(90deg, yellow 10%, orange 90%);
+    background: -ms-linear-gradient(90deg, rgb(183, 219, 115) 10%, orange 90%);
+    background: -o-linear-gradient(90deg, rgb(196, 196, 104) 10%, orange 90%);
+    background: linear-gradient(90deg, rgb(148, 221, 115) 10%, orange 90%);
+    
+}
+h1{
+    text-align: center;  
+}
+.principal p {
+    font-size: 20px;
+    color:black;
+    padding: 10px;
+   
+   
+  
+}
+
+.contacto{
+    background-color:grey;
+}
+
+footer{ text-align: center;
+    color:white;
+    padding-top: 10px;
+    background-color:black;
+ margin-top:30px;
+ margin-bottom: 20px;
+    
+ }
+ footer img {
+  
+   margin-bottom:15px;
+     width: 3em;
+     height: 2em;
+ }
+ .button {
+    background-color:#752995;
+    color: white;
+    padding: 15px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    outline-color: #A931DB;
+    
+  }
+ h1:hover{
+    color:rgb(155, 111, 46);
+    }
+  .atras{
+    width: 6em;
+    height: 3.9em;
+    position: absolute;
+    margin-left: 120px;
+}

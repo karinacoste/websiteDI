@@ -22,7 +22,7 @@ h3{
 }
 
 /*HEADER*/
-header{
+.header{
     width: 1280px; 
     height: 46px;
     padding-top: 10px;
@@ -30,7 +30,7 @@ header{
     background-color: white;
     
 }
-header img {
+.header img {
     padding-top:20px;
 }
 
@@ -159,11 +159,12 @@ nav{
 .main{
     width: 1280px;
     margin: 0 auto;
+    text-align: center;
     
 }
-div{
+/* div{
     text-align: center;
-   }
+   } */
 
 
 .contenedor-pueblos{

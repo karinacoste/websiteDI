@@ -4,13 +4,10 @@
     padding: 0;
     border: 0;
 }
-
 body{
     font-family: 'Roboto', sans-serif, Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
-
-
 h1{
    
     color:purple;
@@ -20,7 +17,9 @@ h3{
     font-size:25px;
     color: #4D4D4D;
 }
-
+h2{
+    color:purple;
+}
 /*HEADER*/
 .header{
     width: 1280px; 
@@ -43,8 +42,10 @@ footer{
 
 }
 footer img {
-    width: 120px;
-    height: 50px;
+    margin:5px;
+padding:8px;
+    width: 10em;
+    height: 2em;
 }
 
 
@@ -107,35 +108,27 @@ nav{
     text-decoration: none;
     color: #752995;
     font-weight: 700;
-
-
 }
-
 .menu a:hover {
     color: #A931DB;
 }
-
 .menu .material-icons{
     vertical-align: bottom;
     font-size: medium;
     color: #A931DB;
 } 
-
 .dropdown{
     position: relative;
     display: inline-block; /*Los elementos inline-block fluyen
                              con el texto y demás elementos 
                              como si fueran elementos en-línea y además respetan el ancho, el alto y los márgenes verticales*/
 }
-
 .dropdown li{
     display:block;
     
 }
 .dropdown a:hover {
     color: #A931DB;
-    
-
  }
 .dropdown-content {
     display: none;
@@ -147,47 +140,40 @@ nav{
     padding:20px;
     z-index: 1;
   }
-  
  .dropdown:hover .dropdown-content {
     display: block; /* elemento sea como un bloque*/
 }
 
-.section-portada img{
-    width: 100%; /*para que ocupe todo el width de la pagina*/
-   } 
-   
+/*------------------------------    */
 .main{
     width: 1280px;
-    margin: 0 auto;
-    text-align: center;
-    
+    margin: 0 auto;   
+} 
+
+/*PAGINA DE INICIO */
+.section-portada img{
+    width: 100%; /*para que ocupe todo el width de la pagina*/
+} 
+.contenedor-inicio{
+    text-align: center; /*los contenedores y fotos de la pagina de inicio estan centrados*/
 }
-/* div{
-    text-align: center;
-   } */
-
-
 .contenedor-pueblos{
+    margin-left: 30px;
     width:367px;
-    display: inline-block;
-    vertical-align: top;
-    text-align: justify;
+    float: left;
+     text-align: justify;
     padding: 10px;
 }
-
 .contenedor-galeria {
     width: 72.5em;
     height: 37.5em;
     margin: 0 auto ;
-    overflow: hidden;
-    
+    overflow: hidden;   
 }
-
 .contenedor-galeria img {
     width: 100%;
     height: 100%;
 }
-
 .contenedor-imagenes{
     margin: 0 0 60px 6vw;
     clear: both;
@@ -199,23 +185,53 @@ nav{
     margin-top:30px;
     float: left;
 }
-
 .contenedor-imagenes img {
     
     width: 9.5vw;
     height: 8.75vw; 
 }
+.contenedor-formulario{
+    text-align: center;   /*queremos todo su contenido en el centro*/
+}
+
+/* PAGINAS SECUNDARIAS*/
+.titulo {
+    margin-top: 30px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding:5px;
+    background: linear-gradient(0deg, rgba(169, 49, 219, 0.83), rgba(169, 49, 219, 0.83)), url('imagenes/albarracin.jpg');
+}
+.titulo h4{
+    margin-left: 110px;
+    color:white;
+    padding:10px;
+}
+.contenido-somos  p{
+    padding:20px;
+}
+.contenido-pueblo p {
+  padding-top:20px;
+}
+.contenido-categorias div{ /* Los diferentes pueblos */
+   
+float: left;
+padding: 10px;
+margin-top:20px;
+}
+.contenido-categorias img {
+ width: 25em;
+ height: 15em;
+}
 
 
-/* formulario */
-
-
+/*formulario*/
 form{
+    text-align: center;
     padding: 10px;
     width: 60%;
     margin: 0 auto;
 }
-
 form p{
     margin-top: 20px;
 }

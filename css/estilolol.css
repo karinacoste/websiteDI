@@ -40,10 +40,11 @@ section h1{
  
    
 }
-header{
+
+.header{
     background-color: white;
 }
-header img {
+.header img {
     position: absolute;
     height: 45px;
     margin-left: 20%;

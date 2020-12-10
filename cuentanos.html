@@ -16,13 +16,17 @@
 </head>
 
 <body>
-  <header>
-    <a href="index.html"> <img src="imagenes/logo.png" alt=""></a>
-   </header>
+  
 
-  <!-- MENU DESPLEGABLE -->
-  <nav>
-    <ul class="menu">
+<!-- HEADER-->
+
+<div class=header>
+    
+  <a href="index.html"><img src="imagenes/logo.png" alt=""></a>
+
+   <!-- MENU DESPLEGABLE -->
+
+   <ul class="menu marginTop40">
       <li><a href="somos.html">Quiénes somos </a></li>
       <li class="dropdown"><a href="">Busco pueblo<i class="material-icons">keyboard_arrow_right</i></a>
         <div class="dropdown-content">
@@ -37,7 +41,7 @@
           </ul>
         </div>
       </li>
-      <li class="dropdown"><a href="">Galeria<i class="material-icons">keyboard_arrow_right</i></a>
+      <li class="dropdown"><a href="">Galería<i class="material-icons">keyboard_arrow_right</i></a>
         <div class="dropdown-content">
 
           <ul class="dropMenu">
@@ -46,19 +50,27 @@
           </ul>
         </div>
       </li>
-      <li><a href="cuentanos.html">Cuentanos</a></li>
+      <li><a href="cuentanos.html">Cuéntanos</a></li>
       <li><a href="contacto.html">Contacto</a></li>
     </ul>
-  </nav>
+
+</div>
 
 
+   <!-- Título de la sección-->
 
 
-  <div class="titulo">
-    <h4>Cuentanos</h4>
+<div class="tituloSec">
+  <div class="tituloSecText">Cuéntanos
   </div>
-  <div class="main">
-    <div class="contenedor-formulario">
+</div>
+
+
+
+
+  <div class="container">
+
+    <div class="contenedor-formulario marginTop40">
     <h1> ¿Vives en un pueblo chulo?</h1>
     <h3>¡Comparte tu experiencia y cuéntanos por qué el pueblo donde vives es tan especial!</h3>
         
@@ -93,7 +105,7 @@
         
             <textarea name="mensaje" id="mensaje" required="obligatorio"
               placeholder="Deja aquí tu comentario..."></textarea>
-        <input type="file" name="" id="">
+        <p><input type="file" name="" id=""></p>
             <button type="submit" name="enviar_formulario" id="enviar" class="button marginTop40">Enviar</button>
           </form>
         

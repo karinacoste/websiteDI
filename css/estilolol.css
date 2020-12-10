@@ -114,10 +114,17 @@ header img {
 margin:0 12.5vw;
 
 }
+
+.contenido-categorias div{
+    float: right;
+}
+
 .contenido-textos     {
 float: left;
 margin : 0 1.666vw;
 }
+
+
 .contenido-textos img{
     width: 20vw;
    

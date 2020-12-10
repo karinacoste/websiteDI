@@ -13,103 +13,106 @@
 
 <body>
 
+
+<!-- HEADER-->
+
   <div class=header>
+    
     <img src="imagenes/logo.png" alt="">
+
+     <!-- MENU DESPLEGABLE -->
+
+     <ul class="menu marginTop40">
+        <li><a href="somos.html">Quiénes somos </a></li>
+        <li class="dropdown"><a href="">Busco pueblo<i class="material-icons">keyboard_arrow_right</i></a>
+          <div class="dropdown-content">
+  
+            <ul class="dropMenu">
+              <li><a href="categorias.html">Para visitar</a></li>
+              <li><a href="categorias.html">Para vivir </a></li>
+              <li><a href="categorias.html">Cerca del mar</a></li>
+              <li><a href="categorias.html">En la montaña</a></li>
+              <li><a href="categorias.html">Escondidos</a></li>
+              <li><a href="categorias.html">Medievales</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="dropdown"><a href="">Galería<i class="material-icons">keyboard_arrow_right</i></a>
+          <div class="dropdown-content">
+  
+            <ul class="dropMenu">
+              <li><a href="">Imagenes</a></li>
+              <li><a href="">Videos </a></li>
+            </ul>
+          </div>
+        </li>
+        <li><a href="cuentanos.html">Cuéntanos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+
   </div>
 
-  <!-- MENU DESPLEGABLE -->
-  <nav>
-    <ul class="menu">
-      <li><a href="somos.html">Quiénes somos </a></li>
-      <li class="dropdown"><a href="">Busco pueblo<i class="material-icons">keyboard_arrow_right</i></a>
-        <div class="dropdown-content">
+    <!-- Esta seccion cuenta solamente con una imagen -->
 
-          <ul class="dropMenu">
-            <li><a href="categorias.html">Para visitar</a></li>
-            <li><a href="categorias.html">Para vivir </a></li>
-            <li><a href="categorias.html">Cerca del mar</a></li>
-            <li><a href="categorias.html">En la montaña</a></li>
-            <li><a href="categorias.html">Escondidos</a></li>
-            <li><a href="categorias.html">Medievales</a></li>
-          </ul>
-        </div>
-      </li>
-      <li class="dropdown"><a href="">Galeria<i class="material-icons">keyboard_arrow_right</i></a>
-        <div class="dropdown-content">
+        <img src="imagenes/albarracin.jpg" alt="">
+  
 
-          <ul class="dropMenu">
-            <li><a href="">Imagenes</a></li>
-            <li><a href="">Videos </a></li>
-          </ul>
-        </div>
-      </li>
-      <li><a href="cuentanos.html">Cuentanos</a></li>
-      <li><a href="contacto.html">Contacto</a></li>
-    </ul>
-  </nav>
+    <!-- Destacados-->
+<div class="container">
 
-  <!-- Esta seccion cuenta solamente con una imagen -->
-  <div class="section-portada">
-    <img src="imagenes/albarracin.jpg" alt="">
-  </div>
+    <div class="row tAlignCenter">
+        <h1 class="marginTop40 marginBottom30">Las categorías de pueblos más populares</h1>
 
-
-  <div class="main">
-    <div class="contenedor-inicio">
-      <h1 class="marginTop40">Las categorías de pueblos más populares</h1>
-
-      <!-- se trata de un div que contiene 3 divs -->
-
-      < div>
-        <div>
-          <div class="contenedor-pueblos">
+          <div class="col primera">
             <a href="categorias.html"> <img src="imagenes/pueblo1.png" alt=""></a>
             <h3 class="marginTop10">Cerca del mar</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut dignissim neque. </p>
           </div>
 
-          <div class="contenedor-pueblos">
+          <div class="col">
             <a href="categorias.html"><img src="imagenes/pueblo2.png" alt=""></a>
             <h3 class="marginTop10">En la montaña </h3>
             <p>Phasellus luctus nisi at nulla convallis convallis.</p>
           </div>
 
-          <div class="contenedor-pueblos">
+          <div class="col">
             <a href="categorias.html"> <img src="imagenes/pueblo3.png" alt=""></a>
             <h3 class="marginTop10">Escondidos</h3>
             <p>Aliquam sit amet eros accumsan, pretium purus sed, faucibus neque.</p>
           </div>
-
-        </div>
-        <a class="button marginTop40" href="todospueblos.html">Ver más categorías</a>
-      </div>
-
-
-      <div>
-        <h1 class="marginTop60">Imágenes subidas por nuestros usuarios</h1>
-        <div class="contenedor-galeria" class="marginTop40">
-          <img src="imagenes/portada.jpg" alt="">
+          <a class="button marginTop40" href="todospueblos.html">Ver más categorías</a>
+  </div>
+    
+    
+    <div class="row tAlignCenter">
+        
+        <h1 class="marginTop40 marginBottom30">Imágenes subidas por nuestros usuarios</h1>
+        
+        <div class="contenedor-galeria marginTop40">
           <img src="imagenes/div1.jpg" id="img1" alt="">
+          <img src="imagenes/portada.jpg" id="img0" alt="">
           <img src="imagenes/grecia.jpg" id="img2" alt="">
           <img src="imagenes/grecia2.jpg" id="img3" alt="">
           <img src="imagenes/portada.jpg" id="img4" alt="">
           <img src="imagenes/america1.jpg" id="img5" alt="">
           <img src="imagenes/italia3.jpg" id="img6" alt="">
         </div>
-        <div class="contenedor-imagenes">
-          <a href="#img1"><img src="imagenes/div1.jpg" alt=""></a>
-          <a href="#img2"><img src="imagenes/grecia.jpg" alt=""></a>
-          <a href="#img3"><img src="imagenes/grecia2.jpg" alt=""></a>
-          <a href="#img4"><img src="imagenes/portada.jpg" alt=""></a>
-          <a href="#img5"><img src="imagenes/america1.jpg" alt=""></a>
-          <a href="#img6"><img src="imagenes/italia3.jpg" alt=""></a>
-        </div>
-      </div>
-
-      <a class="button marginTop10" href="galeria.html">Ver más galerías</a>
-
     </div>
-  </div>
+
+    <div class="row tAlignCenter">
+        <div class="contenedor-imagenes">
+            <a href="#img0"><img src="imagenes/pueblo1_mini.png"  alt=""></a>
+            <a href="#img2"><img src="imagenes/grecia_mini.jpg" alt=""></a>
+            <a href="#img3"><img src="imagenes/grecia2_mini.jpg" alt=""></a>
+            <a href="#img4"><img src="imagenes/portada_mini.png" alt=""></a>
+            <a href="#img5"><img src="imagenes/america1.jpg" alt=""></a>
+            <a href="#img6"><img src="imagenes/italia3.jpg" class="marginRight0" alt=""></a>
+        </div>
+            <a class="button marginTop40 marginBottom30" href="galeria.html">Ver más galerías</a>
+    </div>
+
+</div>   
+
 
   <footer>
     <img src="imagenes/logo3.png" alt="">

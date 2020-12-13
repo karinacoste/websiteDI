@@ -30,7 +30,6 @@ h4{
     height: 46px;
     padding-top: 10px;
     margin: 0 auto;
-    background-color: white;
     
 }
 .header img {
@@ -101,8 +100,7 @@ footer{
 footer img {
     margin:5px;
     padding:8px;
-    width: 10em;
-    height: 2em;
+    opacity: 60%;
 }
 
 
@@ -134,9 +132,28 @@ footer img {
 .imagen-portada {
     width: 100%; /*para que ocupe todo el width de la pagina*/
 } 
+
+
+.tituloSec {
+    width: 100%;
+    height: 64px;
+    margin-top: 44px;
+    background-image: url("imagenes/backgroundTitulo.png");
+    background-repeat: no-repeat;
+
+}
+
+
+.tituloSecText{
+    width: 1280px; 
+    margin: 0 auto;
+    padding: 20px 0 0 30px;
+    font-size: 20px;
+    color:white;
+}
+
+/* 
 .titulo {
-    
-  
     margin-top: 30px;
     font-size: 20px;
     margin-bottom: 20px;
@@ -152,6 +169,10 @@ footer img {
     color: white;
     padding: 10px;
 }
+ */
+
+
+
 .col{
     margin-left: 30px;
     width:367px;
@@ -186,8 +207,8 @@ como para todos los publos si no ponemos esto las imagenes adquieren su tamaño 
 }
 .contenedor-imagenes img  {
     padding: 10px;
-    width: 10vw;
-    height: 10vw; 
+    width: 172px;
+    height: 166px; 
 }  
 
 /* CLASES Genéricas*/
@@ -201,6 +222,17 @@ como para todos los publos si no ponemos esto las imagenes adquieren su tamaño 
     margin-left: 0px;
 }
 
+.marginTop20{
+    margin-top: 20px;
+    
+}
+
+
+.marginTop30{
+    margin-top: 30px;
+    
+}
+
 .marginTop40{
     margin-top: 40px;
     
@@ -208,6 +240,11 @@ como para todos los publos si no ponemos esto las imagenes adquieren su tamaño 
 
 .marginBottom30{
     margin-bottom: 30px;
+    
+}
+
+.marginBottom50{
+    margin-bottom: 50px;
     
 }
 .marginTop60{
@@ -228,12 +265,15 @@ como para todos los publos si no ponemos esto las imagenes adquieren su tamaño 
 }
 
 /* PAGINAS SECUNDARIAS*/
+.contenedor-somos{
+    padding-left: 30px;
 
+}
 .contenedor-somos  p{
     
-    padding: 20px;
-    font-size: 15px;
-    padding-inline: inherit;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
 }
 .contenedor-somos img{
   width: 100%;
@@ -304,17 +344,20 @@ textarea{
     outline-color: #A931DB;
 }
 
-#izquierda{
+.izquierda{
     float: left;
-  
     width: 60%;
   
 }
-#izquierda img {
+
+
+.izquierda img {
     width: 100%;
 }
-#derecha{
-    top: 90px;
+
+
+.derecha{
+    top: 36px;
     position: relative;
     float: right;
  

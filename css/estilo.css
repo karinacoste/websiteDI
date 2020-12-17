@@ -49,7 +49,7 @@ h4{
 
 }
 .menu a {
-    color:#A931DB;
+    color:purple;
     text-decoration: none;
      font-weight: 700;
     padding: 20px;
@@ -277,6 +277,14 @@ como para todos los publos si no ponemos esto las imagenes adquieren su tamaño 
 }
 .contenedor-somos img{
   width: 100%;
+}
+.contenedor-pueblo p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.contenedor-pueblo img {
+    width: 45em;
+    height: 22em;
 }
 
 /*formulario*/

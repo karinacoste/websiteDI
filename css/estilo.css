@@ -24,6 +24,18 @@ h4{
     color:purple;
 }
 
+a {
+    color:purple;
+    text-decoration: none;
+    font-weight: 700;
+}
+a:hover {
+    color: #A931DB;
+}
+.material-icons{
+    vertical-align: bottom;
+}
+
 /*HEADER*/
 .header{
     width: 1280px; 
@@ -49,19 +61,15 @@ h4{
 
 }
 .menu a {
-    color:purple;
-    text-decoration: none;
-     font-weight: 700;
     padding: 20px;
 }
-.menu a:hover {
-    color: #A931DB;
-}
+
 .menu .material-icons{
-    vertical-align: bottom;
+
     font-size: medium;
     color: #A931DB;
 } 
+
 .dropdown{
     position: relative;
     display: inline-block; /*Los elementos inline-block fluyen
@@ -283,8 +291,9 @@ como para todos los publos si no ponemos esto las imagenes adquieren su tamaño 
     margin-bottom: 20px;
 }
 .contenedor-pueblo img {
-    width: 45em;
-    height: 22em;
+    width: 100%;
+    /* width: 45em;
+    height: 22em;  */
 }
 
 /*formulario*/
@@ -354,13 +363,15 @@ textarea{
 
 .container-pueblo{
     float:left;
-    margin-right: 20px;
+    padding-left: 30px;
     width: 60%;
 }
 .container-ubicacion{
-    position: absolute;
-    right: 200px;
-     margin-top: 32px;
+    /* position: absolute; 
+    right: 200px;*/
+    float: right;
+    width: 28%;
+    margin-top: 32px;
 }
 .container-contacto{
     float: left;
@@ -384,3 +395,49 @@ height: 5em;
 .imagen-logo{
    padding: 20px;
 }
+
+
+/* ///////////////////////TABLA */
+
+table{
+    width: 100%;
+    
+    border-collapse: collapse;
+}
+table th:first-child{
+    text-align: left;
+}
+
+table td:first-child{
+    text-align: left;
+ 
+}
+
+table  th {
+    padding: 15px;
+    color:purple;
+}
+
+
+table  td {
+    padding: 15px;
+}
+
+
+.ranking .cabecera {
+    border-bottom: #A931DB 2px solid;
+} 
+
+.ranking th {
+    border-bottom: #A931DB 1px solid;
+} 
+
+tr:nth-child(even) {background: rgb(248, 248, 248)}
+
+.califi .material-icons{
+    color: #ffa700;
+    padding: 0px;
+    display: inline;
+    letter-spacing: 0ch;
+}
+

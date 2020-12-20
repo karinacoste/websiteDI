@@ -400,7 +400,8 @@ height: 5em;
 /* ///////////////////////TABLA */
 
 table{
-    width: 100%;
+    width: 86%;
+    margin: auto;
     
     border-collapse: collapse;
 }

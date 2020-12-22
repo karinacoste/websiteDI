@@ -295,7 +295,8 @@ como para todos los publos si no ponemos esto las imagenes adquieren su tamaño 
     margin-bottom: 20px;
 }
 .contenedor-pueblo img {
-    width: 100%;
+    width: 50em;
+    height: 27em;
     /* width: 45em;
     height: 22em;  */
 }

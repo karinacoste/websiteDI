@@ -223,6 +223,25 @@ como para todos los publos si no ponemos esto las imagenes adquieren su tamaño 
     height: 166px; 
 }  
 
+
+.contenedor-reproductor {
+    width: 71.5em;
+    height: 450px;
+    margin: 0 auto ;
+    overflow: hidden;   
+}
+
+.contenedor-videos iframe:hover{
+    transition: .2s linear;
+    transform:scale(1);
+}
+.contenedor-videos img{
+    width: 20em;
+    padding: 10px;
+    height: 15em;
+}
+
+
 /* CLASES Genéricas*/
 
 .marginRight0{

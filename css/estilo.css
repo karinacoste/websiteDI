@@ -295,7 +295,8 @@ como para todos los publos si no ponemos esto las imagenes adquieren su tamaño 
     margin-bottom: 20px;
 }
 .contenedor-pueblo img {
-    width: 100%;
+    width: 50em;
+    height: 27em;
     /* width: 45em;
     height: 22em;  */
 }
@@ -350,6 +351,9 @@ label
     margin: 20px 0px 4px 0px;
     color: #4D4D4D;
 }
+select {
+    font-size: 15px;
+}
 textarea{
 	width:100%;
 	height:100px;
@@ -376,6 +380,12 @@ textarea{
     float: right;
     width: 28%;
     margin-top: 32px;
+}
+.container-alojamiento{
+    border-radius: 15px;
+    background-color: antiquewhite;
+  padding: 20px;
+
 }
 .container-contacto{
     float: left;

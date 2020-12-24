@@ -369,7 +369,7 @@ textarea{
     outline-color: #A931DB;
 }
 
-.container-pueblo{
+.contenedor-pueblo{
     float:left;
     padding-left: 30px;
     width: 60%;
@@ -379,7 +379,7 @@ textarea{
     right: 200px;*/
     float: right;
     width: 28%;
-    margin-top: 32px;
+    margin-top: 70px;
 }
 .container-alojamiento{
     border-radius: 15px;

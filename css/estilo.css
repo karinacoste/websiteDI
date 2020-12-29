@@ -240,6 +240,11 @@ como para todos los publos si no ponemos esto las imagenes adquieren su tamaño 
     padding: 10px;
     height: 15em;
 }
+.contenedor-videos div {
+    float:left;
+    margin-bottom: 20px;
+}
+
 
 
 /* CLASES Genéricas*/
@@ -256,6 +261,9 @@ como para todos los publos si no ponemos esto las imagenes adquieren su tamaño 
 .marginTop20{
     margin-top: 20px;
     
+}
+.marginLeft120{
+    margin-left: 120px;
 }
 
 

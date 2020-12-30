@@ -3,42 +3,28 @@
     padding: 0;
     border: 0;
 }
-
 body{
-    font-family: 'Roboto', sans-serif, Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-family: 'Roboto', sans-serif, Arial, Helvetica, sans-serif;  
+}
+h1,h2,h4{
+color:purple;
 }
 h1{
-   
-    color:purple;
-    font-size: 38px;;
+font-size: 38px;;
 }
 h3{
     font-size:25px;
     color: #4D4D4D;
 }
-h2{
-    color:purple;
-}
-h4{
-    color:purple;
-}
-
 h5{
     font-size: 16px;
 }
-
 a {
     color:purple;
     text-decoration: none;
     font-weight: 700;
 }
-a:hover {
-    color: #A931DB;
-}
-.material-icons{
-    vertical-align: bottom;
-}
+
 
 /*HEADER*/
 .header{
@@ -67,13 +53,13 @@ a:hover {
 .menu a {
     padding: 20px;
 }
-
+.material-icons{
+    vertical-align: bottom;
+}
 .menu .material-icons{
-
     font-size: medium;
     color: #A931DB;
 } 
-
 .dropdown{
     position: relative;
     display: inline-block; /*Los elementos inline-block fluyen
@@ -134,6 +120,45 @@ footer img {
     background-color:#A931DB;
     outline-color: #A931DB;
   }
+/* CLASES Genéricas*/
+
+.marginRight0{
+    margin-right: 0 !important;
+}
+.marginLeft0{
+    margin-left: 0px;
+}
+.marginTop20{
+    margin-top: 20px;
+}
+.marginLeft120{
+    margin-left: 120px;
+}
+.marginTop30{
+    margin-top: 30px;
+}
+.marginTop40{
+    margin-top: 40px;
+}
+.marginBottom30{
+    margin-bottom: 30px;
+}
+.marginBottom50{
+    margin-bottom: 50px; 
+}
+.marginTop60{
+    margin-top: 60px;
+}
+.marginleft20{
+  margin-left: 20px;
+}
+.marginTop10{
+    margin-top: 10px; 
+}
+.tAlignCenter{
+    text-align: center;
+    
+}
 
 .container{
     width: 1280px;
@@ -145,7 +170,7 @@ footer img {
     width: 100%; /*para que ocupe todo el width de la pagina*/
 } 
 
-
+/*TITULO APARTADOS */ 
 .tituloSec {
     width: 100%;
     height: 64px;
@@ -154,8 +179,6 @@ footer img {
     background-repeat: no-repeat;
 
 }
-
-
 .tituloSecText{
     width: 1280px; 
     margin: 0 auto;
@@ -164,27 +187,9 @@ footer img {
     color:white;
 }
 
-/* 
-.titulo {
-    margin-top: 30px;
-    font-size: 20px;
-    margin-bottom: 20px;
-    padding: 5px;
-    background-image: url("imagenes/backgroundTitulo.png");
-    background-repeat: no-repeat;
+/* CLASES*/ 
 
-}
-
-
-.titulo h4{
-    margin-left: 110px;
-    color: white;
-    padding: 10px;
-}
- */
-
-
-
+/* esta clase la utiliza la pagina : index, categorias */
 .col{
     margin-left: 30px;
     width:367px;
@@ -193,14 +198,14 @@ footer img {
     float: left;
 }
 
-/*las imagenes de cada columna tanto para categorias , 
-como para todos los publos si no ponemos esto las imagenes adquieren su tamaño real*/
+/*le ponemos un tamaño  a las imagenes de los divs con clase col*/
 
 .col img {
     width: 24em;
     height: 15em;
    }  
 
+/* INDEX  - GALERIA CON FOTOS  */
 .contenedor-galeria {
     width: 72.3em;
     height: 37.5em;
@@ -208,21 +213,20 @@ como para todos los publos si no ponemos esto las imagenes adquieren su tamaño 
     overflow: hidden;   
 }
 .contenedor-galeria img { /*debe ocupar el 100 % para que vayan cambiando las fotos */
-    
     width: 100%;
     height: 100%;
 }
 .contenedor-imagenes a {
     display: inline-block;
-    margin-top:30px;
-    
+    margin-top:30px; 
 }
 .contenedor-imagenes img  {
     padding: 10px;
     width: 172px;
     height: 166px; 
-}  
-
+} 
+ 
+/* GALERIA VIDEOS */
 
 .contenedor-reproductor {
     width: 71.5em;
@@ -231,91 +235,37 @@ como para todos los publos si no ponemos esto las imagenes adquieren su tamaño 
     overflow: hidden;   
 }
 
-.contenedor-videos iframe:hover{
-    transition: .2s linear;
-    transform:scale(1);
+.contenedor-videos img:hover{
+-webkit-box-shadow: 0px 0px 15px 10px #c22d89;
 }
 .contenedor-videos img{
+    border-radius:50%;
     width: 20em;
     padding: 10px;
-    height: 15em;
+    height: 16em;
 }
 .contenedor-videos div {
     float:left;
     margin-bottom: 20px;
 }
 
-
-
-/* CLASES Genéricas*/
-
-.marginRight0{
-    margin-right: 0 !important;
-}
-
-
-.marginLeft0{
-    margin-left: 0px;
-}
-
-.marginTop20{
-    margin-top: 20px;
-    
-}
-.marginLeft120{
-    margin-left: 120px;
-}
-
-
-.marginTop30{
-    margin-top: 30px;
-    
-}
-
-.marginTop40{
-    margin-top: 40px;
-    
-}
-
-.marginBottom30{
-    margin-bottom: 30px;
-    
-}
-
-.marginBottom50{
-    margin-bottom: 50px;
-    
-}
-.marginTop60{
-    margin-top: 60px;
-    
-}
-.marginleft20{
-  margin-left: 20px;
-}
-.marginTop10{
-    margin-top: 10px;
-    
-}
-
-.tAlignCenter{
-    text-align: center;
-    
-}
-
-/* PAGINAS SECUNDARIAS*/
+/* QUIENES SOMOS */
 .contenedor-somos{
     padding-left: 30px;
-
 }
 .contenedor-somos  p{
-    
     margin-top: 20px;
-    margin-bottom: 20px;
-    
+    margin-bottom: 20px;  
 }
 .contenedor-somos img{
   width: 100%;
+}
+
+/* PUEBLO */
+.contenedor-pueblo{
+    float:left;
+    padding-left: 30px;
+    width: 60%;
 }
 .contenedor-pueblo p{
     margin-top: 20px;
@@ -324,8 +274,39 @@ como para todos los publos si no ponemos esto las imagenes adquieren su tamaño 
 .contenedor-pueblo img {
     width: 50em;
     height: 27em;
-    /* width: 45em;
-    height: 22em;  */
+}
+/*UBICACION Y ALOJAMIENTO*/
+.container-ubicacion{
+    /* position: absolute; 
+    right: 200px;*/
+    float: right;
+    width: 28%;
+    margin-top: 70px;
+}
+.container-alojamiento{
+    border-radius: 15px;
+    background-color: antiquewhite;
+  padding: 20px;
+
+}
+/*CONTACTO*/
+.container-contacto{
+    float: left;
+    width: 55%;
+    height: 650px;
+}
+.container-siguenos{
+    margin-right: 150px;
+    float: right;
+}   
+.siguenos-imagenes img{
+    margin-top:20px;
+    margin-left: 10px;
+    width: 5em;
+    height: 5em;
+}
+.imagen-logo{
+   padding: 20px;
 }
 
 /*formulario*/
@@ -338,9 +319,7 @@ form{
 form p{
     margin-top: 20px;
     text-align: left;
-
 }
-
 input[type=text]{
 
     height: 25px;
@@ -349,29 +328,19 @@ input[type=text]{
     padding: 10px;
     border:2px solid #CAC7C7;
     width: 100%;
-
 }
 input[type=text]:focus{
     outline-color: #A931DB;
-    
-
 } 
-
 input[type=submit]{
     outline-color: #A931DB;
     border-radius: 8px;
-
 } 
-
 input[type=file]{
-
     text-align: left;
-
 } 
-
 label
-{
-    font-size: 16px;
+{ font-size: 16px;
     display: block;
     width: 100%;
     text-align: left;
@@ -396,49 +365,9 @@ textarea{
     outline-color: #A931DB;
 }
 
-.contenedor-pueblo{
-    float:left;
-    padding-left: 30px;
-    width: 60%;
-}
-.container-ubicacion{
-    /* position: absolute; 
-    right: 200px;*/
-    float: right;
-    width: 28%;
-    margin-top: 70px;
-}
-.container-alojamiento{
-    border-radius: 15px;
-    background-color: antiquewhite;
-  padding: 20px;
-
-}
-.container-contacto{
-    float: left;
-    width: 55%;
-    height: 650px;
-}
-.container-siguenos{
-   
-    margin-right: 150px;
-    float: right;
-}
-.container-imagenes{
-    margin-top: 20px;
-}
-.siguenos-imagenes img{
-    margin-top:20px;
-    margin-left: 10px;
-width: 5em;
-height: 5em;
-}
-.imagen-logo{
-   padding: 20px;
-}
 
 
-/* ///////////////////////TABLA */
+/*TABLA */
 
 table{
     width: 86%;
@@ -459,13 +388,9 @@ table  th {
     padding: 15px;
     color:purple;
 }
-
-
 table  td {
     padding: 15px;
 }
-
-
 .ranking .cabecera {
     border-bottom: #A931DB 2px solid;
 } 

@@ -273,7 +273,7 @@ footer img {
 }
 .contenedor-pueblo img {
     width: 50em;
-    height: 27em;
+    /* height: 27em; */
 }
 /*UBICACION Y ALOJAMIENTO*/
 .container-ubicacion{
